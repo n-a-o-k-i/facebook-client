@@ -1,0 +1,26 @@
+{
+  "name": "facebook-client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/bundle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/n-a-o-k-i/facebook-client.git"
+  },
+  "author": "naoki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/n-a-o-k-i/facebook-client/issues"
+  },
+  "homepage": "https://github.com/n-a-o-k-i/facebook-client#readme",
+  "devDependencies": {
+    "ts-loader": "^5.4.3",
+    "typescript": "^3.4.5",
+    "vue": "^2.6.10",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.1"
+  }
+}
