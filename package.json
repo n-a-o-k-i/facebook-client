@@ -1,0 +1,23 @@
+{
+  "name": "facebook",
+  "version": "1.0.0",
+  "description": "My dazzling Nuxt.js project",
+  "author": "n-a-o-k-i",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "cross-env": "^5.2.0",
+    "nuxt": "^2.4.0",
+    "nuxt-ts": "^2.6.3",
+    "ts-node": "^8.1.0"
+  },
+  "devDependencies": {
+    "@nuxt/typescript": "^2.6.3",
+    "nodemon": "^1.18.9"
+  }
+}
