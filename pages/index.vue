@@ -5,6 +5,7 @@
       <h1 class="title">
         FacebookClient
       </h1>
+      <a href="api/auth/facebook">Login with Facebook</a>
     </div>
   </section>
 </template>
@@ -17,14 +18,6 @@ export default {
     Logo
   }
 }
-
-function greeter(person) {
-    return "Hello, " + person;
-}
-
-let user = "Jane User";
-
-console.log(greeter(user));
 </script>
 
 <style>
