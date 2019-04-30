@@ -18,6 +18,11 @@ passport.use(new FacebookStrategy({
   }
 ));
 
+var server = require('http').createServer(app);
+var port = 3000;
+
+server.listen(port);
+
 app.get('/hello', (req, res) => {
     console.log('hello nuxt in text')
     res.send('world')
