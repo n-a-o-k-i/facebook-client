@@ -3,9 +3,9 @@
     <div>
       <logo />
       <h1 class="title">
-        FacebookClient
+        HELLO
       </h1>
-      <a href="/auth/facebook">Login with Facebook</a>
+      <a href="api/auth/facebook">Login with Facebook</a>
     </div>
   </section>
 </template>

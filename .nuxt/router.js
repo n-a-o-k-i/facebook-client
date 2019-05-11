@@ -2,6 +2,8 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import { interopDefault } from './utils'
 
+const _2fbacada = () => interopDefault(import('../pages/callback.vue' /* webpackChunkName: "pages/callback" */))
+const _4a01bbf4 = () => interopDefault(import('../pages/hello.vue' /* webpackChunkName: "pages/hello" */))
 const _9f9f80d6 = () => interopDefault(import('../pages/auth/facebook/callback.vue' /* webpackChunkName: "pages/auth/facebook/callback" */))
 const _5ae86818 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
@@ -80,6 +82,14 @@ export function createRouter() {
     scrollBehavior,
 
     routes: [{
+      path: "/callback",
+      component: _2fbacada,
+      name: "callback"
+    }, {
+      path: "/hello",
+      component: _4a01bbf4,
+      name: "hello"
+    }, {
       path: "/auth/facebook/callback",
       component: _9f9f80d6,
       name: "auth-facebook-callback"

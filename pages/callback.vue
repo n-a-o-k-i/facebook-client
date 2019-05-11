@@ -3,15 +3,16 @@
     <div>
       <logo />
       <h1 class="title">
-        FacebookClient
+        Callback
       </h1>
-      <a href="/auth/facebook">Login with Facebook</a>
+      <a href="api/auth/facebook">Login with Facebook</a>
     </div>
   </section>
 </template>
 
 <script lang="ts">
 import Logo from '~/components/Logo.vue'
+import index from '~/api/index'
 
 export default {
   components: {
